@@ -52,7 +52,10 @@ const oddOrEvenString = (str) => {
 
 
 // PART 3: Median
-
+const medianOfArray = (arr) => {
+  let sortedArr = arr.sort((a,b) => a - b);
+  return sortedArr[Math.floor(sortedArr.length/2)];
+};
 
 
 // PART 4: Sum Array
