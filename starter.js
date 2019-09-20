@@ -44,7 +44,11 @@ const bigOrSmallString = (str) => {
 
 
 // PART 2: Odd or Even String Length?
-
+const oddOrEvenString = (str) => {
+  return str.length % 2 === 0
+    ? "This string's length is TOTALLY even!"
+    : "This string's length is odd...";
+};
 
 
 // PART 3: Median
