@@ -59,7 +59,14 @@ const medianOfArray = (arr) => {
 
 
 // PART 4: Sum Array
-
+const sumArray = (arr) => {
+  if (arr.length === 0) {
+    return 0;
+  } else {
+    const reducer = (acc, cVal) => acc + cVal;
+    return arr.reduce(reducer);
+  }
+};
 
 
 // PART 5: Vowel Count
