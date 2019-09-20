@@ -36,7 +36,11 @@ const justDoIt = (str) => {
 
 
 // PART 1: Big or Small String?
-
+const bigOrSmallString = (str) => {
+  return str.length > 10 
+    ? "This word is looooooong!"
+    : "This word is short 😬";
+};
 
 
 // PART 2: Odd or Even String Length?
