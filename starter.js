@@ -30,7 +30,9 @@ This will help us track your progress and it will give you practice writing good
 /* ++++====+++==++++==+++++======++++===++++++=====+++==++++++++++===== */
 
 // PART 0: Just DO it!!
-
+const justDoIt = (str) => {
+  return `${str}, just do it!`;
+};
 
 
 // PART 1: Big or Small String?
